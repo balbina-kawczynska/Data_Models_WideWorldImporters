@@ -6,6 +6,18 @@
     <Name>WideWorldImporters.database</Name>
     <FullPath>WideWorldImporters.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WideWorldImportersDW.cube</Name>
+      <FullPath>WideWorldImportersDW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WideWorldImportersDW.partitions</Name>
+          <FullPath>WideWorldImportersDW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>City.dim</Name>
