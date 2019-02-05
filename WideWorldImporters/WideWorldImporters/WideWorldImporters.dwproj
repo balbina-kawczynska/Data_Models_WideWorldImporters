@@ -6,10 +6,31 @@
     <Name>WideWorldImporters.database</Name>
     <FullPath>WideWorldImporters.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>WideWorldImportersDW.ds</Name>
+      <FullPath>WideWorldImportersDW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>WideWorldImportersDW</Id>
+            <Name>WideWorldImportersDW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-VSOL9E4;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>WideWorldImportersDW</Id>
+            <Name>WideWorldImportersDW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
