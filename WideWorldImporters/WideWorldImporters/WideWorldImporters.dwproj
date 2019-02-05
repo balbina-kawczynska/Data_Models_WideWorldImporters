@@ -6,6 +6,40 @@
     <Name>WideWorldImporters.database</Name>
     <FullPath>WideWorldImporters.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>City.dim</Name>
+      <FullPath>City.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PaymentMethod.dim</Name>
+      <FullPath>PaymentMethod.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>StockItem.dim</Name>
+      <FullPath>StockItem.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Supplier.dim</Name>
+      <FullPath>Supplier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TransactionType.dim</Name>
+      <FullPath>TransactionType.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WideWorldImportersDW.ds</Name>
