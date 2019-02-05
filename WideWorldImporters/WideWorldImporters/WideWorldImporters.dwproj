@@ -12,6 +12,12 @@
       <FullPath>WideWorldImportersDW.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>WideWorldImportersDW.dsv</Name>
+      <FullPath>WideWorldImportersDW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
