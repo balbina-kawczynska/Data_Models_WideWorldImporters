@@ -875,6 +875,12 @@
       <Name>Transactions</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Translations>
+        <Translation dwd:design-time-name="ea997148-a6a7-42ac-88bd-6717b17b610c">
+          <Language>1045</Language>
+          <Caption>Transakcje</Caption>
+        </Translation>
+      </Translations>
       <Dimensions>
         <Dimension dwd:design-time-name="6e9b0af0-e1f1-4f0a-a0c8-059a91392efc">
           <CubeDimensionID>Date</CubeDimensionID>
@@ -1243,6 +1249,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="d8b29c69-6a41-4d14-8283-56bd39f1f15d">
+          <Language>1045</Language>
+          <Caption>Transakcje</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="a375e33f-0639-4c1e-b25f-01d40747ee46">
           <ID>Total Excluding Tax</ID>
@@ -1267,6 +1279,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="6e7f9227-9872-445b-9de6-252d0ece4518">
+              <Language>1045</Language>
+              <Caption>WartoscPodatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="fe6258c7-042b-4c29-a0e1-84c59924ae85">
           <ID>Total Including Tax</ID>
@@ -1279,6 +1297,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00;-# ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="804c3007-0b85-4d86-8c8c-a401d86ee8aa">
+              <Language>1045</Language>
+              <Caption>WartoscZPodatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="f5359829-1991-4d52-85e7-32987e85caa5">
           <ID>v Fact Transaction Count</ID>
@@ -1400,6 +1424,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="f858c55f-f4e2-40ea-bf52-998b70fa407f">
+          <Language>1045</Language>
+          <Caption>Magazynowanie</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="9a2a67cd-767e-4c0b-884b-cae09ba96770">
           <ID>Quantity On Hand</ID>
@@ -1412,6 +1442,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="7d901016-7a1c-47f8-8558-51436f7d8301">
+              <Language>1045</Language>
+              <Caption>IloscNaMagazynie</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="609da464-7273-408c-b7f5-a7203182dc62">
           <ID>Last Stocktake Quantity</ID>
@@ -1424,6 +1460,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="7e37c13f-d261-4f12-9b05-a0149005b67b">
+              <Language>1045</Language>
+              <Caption>IloscOstatnioPoliczonych</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="3b5ef9ab-6926-4602-9de0-d07d43fd7f84">
           <ID>Last Cost Price</ID>
@@ -1436,6 +1478,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="43130337-0dc1-48ce-83d8-bf5686768446">
+              <Language>1045</Language>
+              <Caption>PoprzedniaCena</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="b6e0705d-f188-4cc5-b802-5564086dd031">
           <ID>v Fact Stock Holding Count</ID>
@@ -1482,6 +1530,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="db924797-441b-4068-b50e-544dd7f5b832">
+          <Language>1045</Language>
+          <Caption>Sprzedaz</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="2d18ff5a-73fc-46c7-87c7-d30f5e52145b">
           <ID>Quantity</ID>
@@ -1494,6 +1548,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="0dca5b95-1a1a-46cb-94de-58b788d14042">
+              <Language>1045</Language>
+              <Caption>Ilosc</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="e9878dd9-30ca-4ac7-b4aa-cf3557f80d8f">
           <ID>Unit Price</ID>
@@ -1506,6 +1566,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="abcea912-592a-440e-b12d-857bfdea953c">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="2c3ced44-0524-41cd-bbf8-c873360a09ca">
           <ID>Total Excluding Tax - v Fact Sale</ID>
@@ -1530,6 +1596,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="5d5cf74e-01ab-44a6-8e27-5e894b81f132">
+              <Language>1045</Language>
+              <Caption>WartoscPodatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="864c5765-c97c-4c63-a2d1-bc89ef481f5f">
           <ID>Profit</ID>
@@ -1542,6 +1614,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="ea809be9-8da2-4c03-b7a4-7978665f149b">
+              <Language>1045</Language>
+              <Caption>Profit</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="ddc96a8a-a92c-41bb-9ba5-a58aef29faf4">
           <ID>Total Including Tax - v Fact Sale</ID>
@@ -1554,6 +1632,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="de4a5cf0-f25b-436f-af2f-5ccfb6bf22d0">
+              <Language>1045</Language>
+              <Caption>CenaZPodatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="2d26cb93-dcdd-4eb6-8ac1-c78877ed2bc8">
           <ID>Total Dry Items</ID>
@@ -1566,6 +1650,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="6a94c553-f3fc-42dd-8fee-5331612ad2f6">
+              <Language>1045</Language>
+              <Caption>CalkowitaIloscSuchych</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="3ad81e58-b4f6-47a1-a73a-ed4f7a3720fd">
           <ID>Total Chiller Items</ID>
@@ -1578,6 +1668,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="d413b5ba-02bf-4ede-83b4-999c4957ff50">
+              <Language>1045</Language>
+              <Caption>CalkowitaIloscChlodzonych</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="588e7218-5c2c-4a19-be23-0d5298467586">
           <ID>v Fact Sale Count</ID>
@@ -1678,6 +1774,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="aa6b89d0-8505-4db3-b8f0-c1586b5aab79">
+          <Language>1045</Language>
+          <Caption>Przeplyw</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="374f6131-6738-4b7c-a1cc-f080916eace5">
           <ID>Quantity - v Fact Movement</ID>
@@ -1690,6 +1792,12 @@
             </Source>
           </Source>
           <FormatString># ##0;-# ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="5c526ee4-94d5-42b1-8cba-1fc4da4b7ccd">
+              <Language>1045</Language>
+              <Caption>Ilosc</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="19bc1e00-73b8-456a-b696-935189460d55">
           <ID>v Fact Movement Count</ID>
@@ -1810,6 +1918,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="2dd8fa6e-b0d7-47cf-a86c-9832f3b1fae2">
+          <Language>1045</Language>
+          <Caption>Zamowienia</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="b196c7a0-5330-4794-a691-0f722236c2db">
           <ID>Quantity - v Fact Order</ID>
@@ -1822,6 +1936,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="cd94a93b-230a-4ced-84d8-6be451210e76">
+              <Language>1045</Language>
+              <Caption>Ilosc</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="3056eb6b-4c4e-43db-ba2e-e57a085a0c80">
           <ID>Unit Price - v Fact Order</ID>
@@ -1834,6 +1954,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="97632233-b3f1-45ec-8b2c-57f52bda1998">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowa</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="2bf8ece8-d2e3-4725-8747-1c0d8255a9af">
           <ID>Total Excluding Tax - v Fact Order</ID>
@@ -1858,6 +1984,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="b7164775-5483-420b-a2a4-e7da2b63a94a">
+              <Language>1045</Language>
+              <Caption>WartoscPodatku</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="82e99bf2-9535-4d4b-bff1-2b482e22385b">
           <ID>Total Including Tax - v Fact Order</ID>
@@ -1870,6 +2002,12 @@
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="3a6396e5-fc59-4866-b24e-ae9e2fd80661">
+              <Language>1045</Language>
+              <Caption>CenaZPodatkiem</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="1c7e95d6-0987-49d2-9cfe-29d9d0bbdc06">
           <ID>v Fact Order Count</ID>
@@ -1970,6 +2108,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="25924e3f-e12e-4321-85ed-8a25a8f79e5d">
+          <Language>1045</Language>
+          <Caption>Zakupy</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="f5e0bf6b-0bc1-415e-a601-35315e414e7d">
           <ID>Ordered Quantity</ID>
@@ -1982,6 +2126,12 @@
             </Source>
           </Source>
           <FormatString># ##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="966f5133-1afc-4d6e-9815-dd823db7abcb">
+              <Language>1045</Language>
+              <Caption>ZamowionaIlosc</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="5fa812e9-82af-4348-b2d9-fa7943bfc145">
           <ID>v Fact Purchase Count</ID>
