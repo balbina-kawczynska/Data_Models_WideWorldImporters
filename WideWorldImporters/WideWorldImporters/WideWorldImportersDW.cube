@@ -1086,6 +1086,36 @@
           </Measures>
         </MeasureGroup>
       </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="4d9cef47-937f-4356-b599-8abab7e95bd2">
+          <Name>[Measures].[Movement Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="bddbb8e2-6580-4ec6-a6cf-aa41e3c039c0">
+          <Name>[Measures].[Order Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="7539bf2e-bf7d-4f8e-bb74-01f995812d72">
+          <Name>[Measures].[Purchase Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="ebc6136c-39ba-47d2-be1f-24f594b92217">
+          <Name>[Measures].[Profit Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1a4aff84-8977-49da-a405-df80a51df643">
+          <Name>[Measures].[Sale Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="6fa578fb-c70a-4d41-8f47-e1d55b180668">
+          <Name>[Measures].[Chiller Items Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a718b7af-ce6f-4a12-8749-d0d86f79c5a7">
+          <Name>[Measures].[Dry Items Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
     </Perspective>
     <Perspective dwd:design-time-name="b42b916b-af3c-4b56-a6c5-b68302c671b5">
       <ID>Perspective 1</ID>
@@ -1259,6 +1289,20 @@
           </Measures>
         </MeasureGroup>
       </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="8e062c8f-159e-4350-85a6-b98ff19f53df">
+          <Name>[Measures].[Chiller Items Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="45e635e1-2fe6-4c40-9a4c-1c7ce045949f">
+          <Name>[Measures].[Dry Items Avg]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="2926238b-ab08-4221-b0df-85ea0a6e137e">
+          <Name>[Measures].[Stock Difference]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
     </Perspective>
   </Perspectives>
   <MeasureGroups>
@@ -1435,6 +1479,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="2d61355f-3c17-4fb0-a717-acbfb2f0c3be">
       <ID>v Fact Stock Holding</ID>
@@ -1540,6 +1585,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="b35ea441-f30b-4bb2-8181-8b6da02064ed">
       <ID>v Fact Sale</ID>
@@ -1783,6 +1829,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="fb17a0fb-456c-4172-87e2-d9a9210d01c4">
       <ID>v Fact Movement</ID>
@@ -1926,6 +1973,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="b6403672-afc0-448e-818c-e48d7680c35f">
       <ID>v Fact Order</ID>
@@ -2115,6 +2163,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="8e1690d6-ffdf-4e9a-a347-55e75d02e19b">
       <ID>v Fact Purchase</ID>
@@ -2220,6 +2269,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="94cc5ef3-c508-49f0-b795-c2e0d7455d9e">
