@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10252" scrolltop="-2138" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="25" x="31724" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14922" scrolltop="-17847" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="25" x="31724" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -626,11 +626,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-10252</Value>
+      <Value>-14922</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2138</Value>
+      <Value>-17847</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -1140,6 +1140,12 @@
             <Attribute dwd:design-time-name="cc752f6a-881b-4f1c-a6b7-9df8c4066e51">
               <AttributeID>Calendar Year Label</AttributeID>
             </Attribute>
+            <Attribute dwd:design-time-name="377c095a-0fdd-4315-8efc-3bd525cbfcf6">
+              <AttributeID>Fiscal Month Label</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a05debc0-32b5-4ab4-bdc6-0722a1d6ef08">
+              <AttributeID>Fiscal Year Label</AttributeID>
+            </Attribute>
           </Attributes>
           <Hierarchies>
             <Hierarchy dwd:design-time-name="d6d2f6e8-0d4d-460a-80ba-51bf431a01d2">
@@ -1429,7 +1435,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="2d61355f-3c17-4fb0-a717-acbfb2f0c3be">
       <ID>v Fact Stock Holding</ID>
@@ -1535,7 +1540,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="b35ea441-f30b-4bb2-8181-8b6da02064ed">
       <ID>v Fact Sale</ID>
@@ -1779,7 +1783,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="fb17a0fb-456c-4172-87e2-d9a9210d01c4">
       <ID>v Fact Movement</ID>
@@ -1923,7 +1926,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="b6403672-afc0-448e-818c-e48d7680c35f">
       <ID>v Fact Order</ID>
@@ -2113,7 +2115,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="8e1690d6-ffdf-4e9a-a347-55e75d02e19b">
       <ID>v Fact Purchase</ID>
@@ -2219,7 +2220,6 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="94cc5ef3-c508-49f0-b795-c2e0d7455d9e">
