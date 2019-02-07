@@ -2235,14 +2235,62 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE ; 
+CALCULATE;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Movement Avg]
     AS [Measures].[QuantityMovement]/[Measures].[MovementRowCount], 
     FORMAT_STRING = "#,##;-#,##", 
     VISIBLE = 1 ,  
     DISPLAY_FOLDER = 'Calculation Members'
-;</Text>
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Order Avg]
+    AS [Measures].[QuantityOrder]/[Measures].[OrderRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Purchase Avg]
+    AS [Measures].[OrderedQuantity]/[Measures].[PurchaseRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Profit Avg]
+    AS [Measures].[Profit]/[Measures].[SaleRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Sale Avg]
+    AS [Measures].[Quantity]/[Measures].[SaleRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Chiller Items Avg]
+    AS [Measures].[TotalChillerItems]/[Measures].[SaleRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Dry Items Avg]
+    AS [Measures].[TotalDryItems]/[Measures].[SaleRowCount], 
+    FORMAT_STRING = "#,##", 
+    VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'
+;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Stock Difference]
+    AS [Measures].[QuantityOnHand]-[Measures].[LastStocktakeQuantity], 
+    FORMAT_STRING = "# ##0", 
+    VISIBLE = 1 ,  
+    DISPLAY_FOLDER = 'Calculation Members'
+; </Text>
         </Command>
       </Commands>
     </MdxScript>
