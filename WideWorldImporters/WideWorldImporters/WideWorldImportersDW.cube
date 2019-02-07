@@ -2346,6 +2346,78 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Stock Difference]
 ; </Text>
         </Command>
       </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="e26fd190-b1ca-4efd-9a64-58f23c20e8cd">
+          <CalculationReference>[Measures].[Profit Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="604e4567-3c95-400a-a057-bfb46495141b">
+              <Language>1045</Language>
+              <Caption>SredniProfit</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="64b4fd37-774a-420f-a678-cd10a5197c2e">
+          <CalculationReference>[Measures].[Sale Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="d2f68d11-8259-47cf-a92d-6bce265bafde">
+              <Language>1045</Language>
+              <Caption>SredniaSprzedaz</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="d47e5e41-2aa3-472d-a782-8e13803bfa02">
+          <CalculationReference>[Measures].[Chiller Items Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="f6773136-946b-46c2-aee2-d8046f425853">
+              <Language>1045</Language>
+              <Caption>SredniaIloscChlodzonych</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="8067a57f-859a-4591-854f-0633da25b5bf">
+          <CalculationReference>[Measures].[Dry Items Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="568941c3-7735-4630-9d8e-22840abe590d">
+              <Language>1045</Language>
+              <Caption>SredniaIloscSuchych</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="0a1dfc39-8145-47a5-9cfc-c11b790e62c3">
+          <CalculationReference>[Measures].[Stock Difference]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1b523167-4be6-47db-b091-9e3bbf06c78f">
+              <Language>1045</Language>
+              <Caption>RoznicaMagazynowa</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="9b1a88ff-bd48-49eb-aa49-986c76cf9a67">
+          <CalculationReference>[Measures].[Purchase Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="098e2096-3e57-4024-b83b-8d6f01d9c750">
+              <Language>1045</Language>
+              <Caption>SredniZakup</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="4d56f409-a558-4cbc-941d-3728ba3066e8">
+          <CalculationReference>[Measures].[Order Avg]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="f797dc54-9363-4590-89d9-590ef25689df">
+              <Language>1045</Language>
+              <Caption>SrednioZamowione</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
     </MdxScript>
   </MdxScripts>
 </Cube>
