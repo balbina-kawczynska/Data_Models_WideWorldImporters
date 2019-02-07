@@ -1145,6 +1145,9 @@
             <Hierarchy dwd:design-time-name="d6d2f6e8-0d4d-460a-80ba-51bf431a01d2">
               <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
+            <Hierarchy dwd:design-time-name="eb6010a7-0e1d-4be0-b9b9-fcd52f29bb03">
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
           </Hierarchies>
         </Dimension>
         <Dimension dwd:design-time-name="17cbdc74-640a-44a5-8989-07dce9576ab8">
