@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14922" scrolltop="-17847" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="25" x="31724" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="74" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14922" scrolltop="-17847" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="25" x="12885" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -1158,81 +1158,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension dwd:design-time-name="124c741d-64dd-4c18-8b97-94e1de48d545">
-          <CubeDimensionID>Date</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="9014c63c-2c60-485a-bba3-f155c9683912">
-              <AttributeID>Date</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="ab868662-88ad-46b8-8e6e-b6c93cb4460c">
-              <AttributeID>Calendar Month Label</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="cc752f6a-881b-4f1c-a6b7-9df8c4066e51">
-              <AttributeID>Calendar Year Label</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="377c095a-0fdd-4315-8efc-3bd525cbfcf6">
-              <AttributeID>Fiscal Month Label</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="a05debc0-32b5-4ab4-bdc6-0722a1d6ef08">
-              <AttributeID>Fiscal Year Label</AttributeID>
-            </Attribute>
-          </Attributes>
-          <Hierarchies>
-            <Hierarchy dwd:design-time-name="d6d2f6e8-0d4d-460a-80ba-51bf431a01d2">
-              <HierarchyID>Hierarchy</HierarchyID>
-            </Hierarchy>
-            <Hierarchy dwd:design-time-name="eb6010a7-0e1d-4be0-b9b9-fcd52f29bb03">
-              <HierarchyID>Hierarchy 1</HierarchyID>
-            </Hierarchy>
-          </Hierarchies>
-        </Dimension>
-        <Dimension dwd:design-time-name="17cbdc74-640a-44a5-8989-07dce9576ab8">
-          <CubeDimensionID>Supplier</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="552adcf6-22bd-4ac6-8258-d8ff0c486423">
-              <AttributeID>Supplier Key</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="16cd9e6a-6470-4934-959c-67eab2314dc1">
-              <AttributeID>Category</AttributeID>
-            </Attribute>
-          </Attributes>
-          <Hierarchies>
-            <Hierarchy dwd:design-time-name="e070f13a-ff0f-436b-b121-aecba37a0389">
-              <HierarchyID>Hierarchy</HierarchyID>
-            </Hierarchy>
-          </Hierarchies>
-        </Dimension>
-        <Dimension dwd:design-time-name="585515cd-31a6-4ff8-8f8c-1a5c35317d59">
-          <CubeDimensionID>City</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="2939238a-a0ee-4e45-a27a-33980a1a427d">
-              <AttributeID>City Key</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="e3ad2bcb-d348-4f5c-8f66-39a4191b646b">
-              <AttributeID>State Province</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="fca5b8d6-ee3f-4ca4-8258-527a59fdc734">
-              <AttributeID>Country</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="ca91ec97-226b-4f6c-a4ec-65ba96b58342">
-              <AttributeID>Continent</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="38619e72-2eb5-4432-8122-d190334c29f5">
-              <AttributeID>Sales Territory</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="88676365-3471-4781-bad5-bc7cf944e6f2">
-              <AttributeID>Region</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="51c3b439-6996-44ea-a4bd-fffcd70f6e66">
-              <AttributeID>Subregion</AttributeID>
-            </Attribute>
-          </Attributes>
-          <Hierarchies>
-            <Hierarchy dwd:design-time-name="5b5da37f-aea7-48b2-bad6-e4d512dfef18">
-              <HierarchyID>Hierarchy</HierarchyID>
-            </Hierarchy>
-          </Hierarchies>
-        </Dimension>
       </Dimensions>
       <MeasureGroups>
         <MeasureGroup dwd:design-time-name="98bdd0e4-45d1-4201-9142-e968227ebcc7">
@@ -1252,52 +1177,62 @@
             </Measure>
           </Measures>
         </MeasureGroup>
-        <MeasureGroup dwd:design-time-name="639e9961-0e83-4f82-b049-9779c874bb9c">
+        <MeasureGroup dwd:design-time-name="ee6dfac0-a5eb-4b58-b45f-a603698a6895">
           <MeasureGroupID>v Fact Movement</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="f1dee821-61f6-49a5-9a81-7e4674c7b2c4">
+            <Measure dwd:design-time-name="89e6fb65-0a52-433d-8286-3ed98d0a32d4">
               <MeasureID>Quantity - v Fact Movement</MeasureID>
             </Measure>
-            <Measure dwd:design-time-name="f61e5bf6-b529-4818-aae6-0c74afe4d72a">
+            <Measure dwd:design-time-name="8884aaff-e297-4b1e-856e-9b7fe2d7c894">
               <MeasureID>v Fact Movement Count</MeasureID>
             </Measure>
           </Measures>
         </MeasureGroup>
-        <MeasureGroup dwd:design-time-name="dba93ad5-2bda-48e7-8a50-5545e8d5f7dc">
-          <MeasureGroupID>v Fact Order</MeasureGroupID>
+        <MeasureGroup dwd:design-time-name="81ad1de3-8bfc-4c48-8827-24ec57114c6d">
+          <MeasureGroupID>v Fact Purchase</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="e4e9753f-964b-4a5e-ac09-b3681339ab8d">
-              <MeasureID>Quantity - v Fact Order</MeasureID>
+            <Measure dwd:design-time-name="6d2c0a84-1c0f-4c06-906c-02d2536f0ecd">
+              <MeasureID>Ordered Quantity</MeasureID>
             </Measure>
-            <Measure dwd:design-time-name="bbc663eb-e264-40d3-9799-a802cc502c1a">
-              <MeasureID>Unit Price - v Fact Order</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="575c51c1-3da8-418b-b3f0-70c0024a343d">
-              <MeasureID>v Fact Order Count</MeasureID>
+            <Measure dwd:design-time-name="6054574e-74e1-4a54-9af3-8a526f53c79a">
+              <MeasureID>v Fact Purchase Count</MeasureID>
             </Measure>
           </Measures>
         </MeasureGroup>
-        <MeasureGroup dwd:design-time-name="7852474f-5274-48c7-9836-390e7c0aa461">
-          <MeasureGroupID>v Fact Purchase</MeasureGroupID>
+        <MeasureGroup dwd:design-time-name="e448c15b-e3b0-4923-ad01-7b1d92ea809a">
+          <MeasureGroupID>v Fact Sale</MeasureGroupID>
           <Measures>
-            <Measure dwd:design-time-name="692c968e-bbf4-48c4-80cf-271905c5fa79">
-              <MeasureID>Ordered Quantity</MeasureID>
+            <Measure dwd:design-time-name="3780a5ef-3606-462c-921a-17818a079eee">
+              <MeasureID>Quantity</MeasureID>
             </Measure>
-            <Measure dwd:design-time-name="3617d71f-165e-4df6-8cc8-9497125e29f9">
-              <MeasureID>v Fact Purchase Count</MeasureID>
+            <Measure dwd:design-time-name="e4556be1-aac1-43b1-9743-1bd738623fa0">
+              <MeasureID>Unit Price</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="c323042f-58ac-4731-8bd0-97959e2f8257">
+              <MeasureID>Total Excluding Tax - v Fact Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="4f7ff59b-7233-4475-8c75-8b83524ee0c1">
+              <MeasureID>Tax Amount - v Fact Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="c4a750d2-66d5-4a0a-a7c4-4bfefbfebcaa">
+              <MeasureID>Profit</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="38c38118-d1d8-41b4-aa7d-0cb8822e8d81">
+              <MeasureID>Total Including Tax - v Fact Sale</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="38b62cc1-eb21-4295-9a51-2b41349d1ec6">
+              <MeasureID>Total Dry Items</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3509555d-bf5a-46f3-8962-fa0199aca9ae">
+              <MeasureID>Total Chiller Items</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="d513cd6d-721c-47f2-b067-3ebeee441e82">
+              <MeasureID>v Fact Sale Count</MeasureID>
             </Measure>
           </Measures>
         </MeasureGroup>
       </MeasureGroups>
       <Calculations>
-        <Calculation dwd:design-time-name="8e062c8f-159e-4350-85a6-b98ff19f53df">
-          <Name>[Measures].[Chiller Items Avg]</Name>
-          <Type>Member</Type>
-        </Calculation>
-        <Calculation dwd:design-time-name="45e635e1-2fe6-4c40-9a4c-1c7ce045949f">
-          <Name>[Measures].[Dry Items Avg]</Name>
-          <Type>Member</Type>
-        </Calculation>
         <Calculation dwd:design-time-name="2926238b-ab08-4221-b0df-85ea0a6e137e">
           <Name>[Measures].[Stock Difference]</Name>
           <Type>Member</Type>
@@ -1379,6 +1314,7 @@
               <TableID>olap_vFactTransaction</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -1560,6 +1496,7 @@
               <TableID>olap_vFactStockHolding</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -1603,7 +1540,7 @@
       <Measures>
         <Measure dwd:design-time-name="2d18ff5a-73fc-46c7-87c7-d30f5e52145b">
           <ID>Quantity</ID>
-          <Name>Quantity</Name>
+          <Name>SaleQuantity</Name>
           <Source dwd:design-time-name="6c8f50b6-7901-4862-ac41-35189893c14b">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="87e8ec5a-8676-4526-a297-90b90b7a90db">
@@ -1621,7 +1558,7 @@
         </Measure>
         <Measure dwd:design-time-name="e9878dd9-30ca-4ac7-b4aa-cf3557f80d8f">
           <ID>Unit Price</ID>
-          <Name>UnitPrice</Name>
+          <Name>SaleUnitPrice</Name>
           <Source dwd:design-time-name="c5e087ce-360f-40f1-b891-c05a90dbf668">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="cc10ef14-bd6f-47a7-8aa1-a5e4dc477325">
@@ -1639,7 +1576,7 @@
         </Measure>
         <Measure dwd:design-time-name="2c3ced44-0524-41cd-bbf8-c873360a09ca">
           <ID>Total Excluding Tax - v Fact Sale</ID>
-          <Name>TotalExcludingTaxSale</Name>
+          <Name>SaleTotalExcludingTax</Name>
           <Source dwd:design-time-name="bb3e84b5-eacc-4bf4-9bd4-49f3a4171abe">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="65554b2b-41af-40e2-b097-25fdc284066a">
@@ -1651,7 +1588,7 @@
         </Measure>
         <Measure dwd:design-time-name="3b01a644-db89-4a7d-9d26-39f8f5cb4882">
           <ID>Tax Amount - v Fact Sale</ID>
-          <Name>TaxAmountSale</Name>
+          <Name>SaleTaxAmount</Name>
           <Source dwd:design-time-name="e5fc7bb3-8b9e-4686-81df-cc5035baeb1a">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="cf98c441-cbd9-4f77-a6c3-dc37cd502b59">
@@ -1669,7 +1606,7 @@
         </Measure>
         <Measure dwd:design-time-name="864c5765-c97c-4c63-a2d1-bc89ef481f5f">
           <ID>Profit</ID>
-          <Name>Profit</Name>
+          <Name>SaleProfit</Name>
           <Source dwd:design-time-name="5d017478-66a1-4233-8d00-8bc7a4d7b0cc">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="1b172a99-6afd-408f-804c-8178f3e7b838">
@@ -1687,7 +1624,7 @@
         </Measure>
         <Measure dwd:design-time-name="ddc96a8a-a92c-41bb-9ba5-a58aef29faf4">
           <ID>Total Including Tax - v Fact Sale</ID>
-          <Name>TotalIncludingTaxSale</Name>
+          <Name>SaleTotalIncludingTax</Name>
           <Source dwd:design-time-name="2e82eb5a-6c6d-4d0c-9bc5-c5ad2e807a1c">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="e8869f83-76d1-4fad-8da0-3986ac58005b">
@@ -1750,6 +1687,7 @@
               <TableID>olap_vFactSale</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -1847,7 +1785,7 @@
       <Measures>
         <Measure dwd:design-time-name="374f6131-6738-4b7c-a1cc-f080916eace5">
           <ID>Quantity - v Fact Movement</ID>
-          <Name>QuantityMovement</Name>
+          <Name>MovementQuantity</Name>
           <Source dwd:design-time-name="3a27774c-69cf-4dae-86e2-ef9a9eb8d4bb">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="b92a48a7-2a17-477e-826e-6c6fdf805992">
@@ -1874,6 +1812,7 @@
               <TableID>olap_vFactMovement</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -1991,7 +1930,7 @@
       <Measures>
         <Measure dwd:design-time-name="b196c7a0-5330-4794-a691-0f722236c2db">
           <ID>Quantity - v Fact Order</ID>
-          <Name>QuantityOrder</Name>
+          <Name>OrderQuantity</Name>
           <Source dwd:design-time-name="79ae3057-e3c0-42ac-8fdb-150fdce390ad">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="eb7214e3-b811-4a87-b118-4be01fd5b45f">
@@ -2009,7 +1948,7 @@
         </Measure>
         <Measure dwd:design-time-name="3056eb6b-4c4e-43db-ba2e-e57a085a0c80">
           <ID>Unit Price - v Fact Order</ID>
-          <Name>UnitPriceOrder</Name>
+          <Name>OrderUnitPrice</Name>
           <Source dwd:design-time-name="cc980dda-3729-4dcf-83f7-56f15230797d">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="9c583494-87e2-4374-9f7d-1fb54fa53e48">
@@ -2027,7 +1966,7 @@
         </Measure>
         <Measure dwd:design-time-name="2bf8ece8-d2e3-4725-8747-1c0d8255a9af">
           <ID>Total Excluding Tax - v Fact Order</ID>
-          <Name>TotalExcludingTaxOrder</Name>
+          <Name>OrderTotalExcludingTax</Name>
           <Source dwd:design-time-name="e895a6c9-be04-45d8-a5aa-1cef0777848b">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="54e37ec8-ac2d-4173-9b8a-6ac7de68f4b9">
@@ -2039,7 +1978,7 @@
         </Measure>
         <Measure dwd:design-time-name="e7f77add-f360-4ae3-b9cd-cef05c46f84f">
           <ID>Tax Amount - v Fact Order</ID>
-          <Name>TaxAmountOrder</Name>
+          <Name>OrderTaxAmount</Name>
           <Source dwd:design-time-name="cff2461b-613a-4858-86c8-f09b4d258532">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="6d27fb5d-1241-4988-94a5-64b12c805e33">
@@ -2057,7 +1996,7 @@
         </Measure>
         <Measure dwd:design-time-name="82e99bf2-9535-4d4b-bff1-2b482e22385b">
           <ID>Total Including Tax - v Fact Order</ID>
-          <Name>TotalIncludingTaxOrder</Name>
+          <Name>OrderTotalIncludingTax</Name>
           <Source dwd:design-time-name="5a3e2664-4ab2-41c1-b7bc-8a6aedd87abc">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="5c8f44ff-f6c2-4b45-a07d-496ede3033dc">
@@ -2084,6 +2023,7 @@
               <TableID>olap_vFactOrder</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -2181,7 +2121,7 @@
       <Measures>
         <Measure dwd:design-time-name="f5e0bf6b-0bc1-415e-a601-35315e414e7d">
           <ID>Ordered Quantity</ID>
-          <Name>OrderedQuantity</Name>
+          <Name>PurchaseQuantity</Name>
           <Source dwd:design-time-name="5347854d-c2ad-4197-bb25-cf7e7b61e2aa">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="d6005b81-2af7-4090-9a22-1123ceea9b63">
@@ -2208,6 +2148,7 @@
               <TableID>olap_vFactPurchase</TableID>
             </Source>
           </Source>
+          <Visible>false</Visible>
           <FormatString># ##0</FormatString>
         </Measure>
       </Measures>
@@ -2288,62 +2229,49 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;  
+CALCULATE;   
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Movement Avg]
-    AS [Measures].[QuantityMovement]/[Measures].[MovementRowCount], 
-    FORMAT_STRING = "#,##;-#,##", 
-    VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+ AS [Measures].[MovementQuantity]/[Measures].[MovementRowCount], 
+FORMAT_STRING = "#,##;-#,##", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'  ;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Order Avg]
-    AS [Measures].[QuantityOrder]/[Measures].[OrderRowCount], 
-    FORMAT_STRING = "#,##", 
-    VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+ AS [Measures].[OrderQuantity]/[Measures].[OrderRowCount], 
+FORMAT_STRING = "#,##", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'  ;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Purchase Avg]
-    AS [Measures].[OrderedQuantity]/[Measures].[PurchaseRowCount], 
-    FORMAT_STRING = "#,##", 
-    VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+ AS [Measures].[PurchaseQuantity]/[Measures].[PurchaseRowCount], 
+FORMAT_STRING = "#,##", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'  ;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Profit Avg]
-    AS [Measures].[Profit]/[Measures].[SaleRowCount], 
-    FORMAT_STRING = "#,##", 
-    VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+ AS [Measures].[SaleProfit]/[Measures].[SaleRowCount], 
+FORMAT_STRING = "#,##", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'  ;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Sale Avg]
-    AS [Measures].[Quantity]/[Measures].[SaleRowCount], 
-    FORMAT_STRING = "#,##", 
-    VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+ AS [Measures].[SaleQuantity]/[Measures].[SaleRowCount], 
+FORMAT_STRING = "#,##", 
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'  ;  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Chiller Items Avg]
     AS [Measures].[TotalChillerItems]/[Measures].[SaleRowCount], 
     FORMAT_STRING = "#,##", 
     VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; 
+    DISPLAY_FOLDER = 'Calculation Members';  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Dry Items Avg]
     AS [Measures].[TotalDryItems]/[Measures].[SaleRowCount], 
     FORMAT_STRING = "#,##", 
-    VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'
-;
+    VISIBLE = 1 ,  DISPLAY_FOLDER = 'Calculation Members'; 
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Stock Difference]
     AS [Measures].[QuantityOnHand]-[Measures].[LastStocktakeQuantity], 
     FORMAT_STRING = "# ##0", 
     VISIBLE = 1 ,  
-    DISPLAY_FOLDER = 'Calculation Members'
-; </Text>
+    DISPLAY_FOLDER = 'Calculation Members'; </Text>
         </Command>
       </Commands>
       <CalculationProperties>
