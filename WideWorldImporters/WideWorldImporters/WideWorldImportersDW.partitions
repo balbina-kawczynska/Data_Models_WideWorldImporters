@@ -2,26 +2,6 @@
   <ID>WideWorldImportersDW</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>v Fact Transaction</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="f7b34390-811b-425a-8b5e-53c5a7d4c9e3">
-          <ID>v Fact Transaction</ID>
-          <Name>v Fact Transaction</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7d6853bf-b490-4531-b562-14d649c13ac7">
-            <DataSourceViewID>WideWorldImportersDW</DataSourceViewID>
-            <TableID>olap_vFactTransaction</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>v Fact Stock Holding</ID>
       <Partitions>
         <Partition dwd:design-time-name="d0f29a98-2b0b-4dab-a457-46dd10a03ea1">
